@@ -23,4 +23,6 @@ urlpatterns = [
     path('app/', include('app.urls')),
     #api based url
     path('api/v/', include('api.urls')),
+    path('employees/', include('employees.urls')),
+   
 ]
