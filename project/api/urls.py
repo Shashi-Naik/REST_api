@@ -6,6 +6,7 @@ urlpatterns = [
     path('std/<int:pk>/', views.studentdetailViews),
     
     path('employee/', views.Employee.as_view()),
+    path('employee/<int:pk>/', views.EmployeeDetail.as_view()),
     
      
 ]
